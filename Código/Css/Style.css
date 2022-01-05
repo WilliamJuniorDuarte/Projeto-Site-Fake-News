@@ -1,0 +1,33 @@
+body{
+	background-image: url("../Imagens/background01.jfif");
+	background-repeat: repeat-y;
+	background-size: 100%;
+	z-index: 1;
+}
+
+header{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	top: 100px;
+	z-index: 2;
+}
+
+img#tituloPrincipal{
+	width : 50%;
+}
+
+div{
+	margin: auto;	
+	margin-top: 200px;
+	background-color: #ffffff;
+	width: 75%;
+	padding: 50px;
+}
+
+@media screen and(min-width: 320px){
+
+	img#tituloPrincipal{
+		width: 480px;
+	}
+}
